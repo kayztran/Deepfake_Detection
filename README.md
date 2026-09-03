@@ -1,7 +1,5 @@
 # Deepfake Detection
 
-Deep Learning final project — Kayla Tran, Thomas Bunch, Chloe Van Caemelbecke
-
 [Full report](https://docs.google.com/document/d/1mKmO4IW0z56dCsbGk8i516CHxahZT0cJTA5rkrqWiLc/edit?usp=sharing)
 
 Given a short clip of video frames, the models here predict whether it is authentic (`0`) or a deepfake (`1`). The project tests one question: does modeling *time* help? Humans often spot deepfakes through inconsistencies between frames, so we compare a frame-level ResNet-50 baseline against two temporally aware architectures that can see across frames.
